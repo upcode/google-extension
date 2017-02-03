@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+
+    "name": "Nerd Life",
+    "description": "Nerd Life",
+    "version": "1.0",
+
+    "browser_action": {
+        "default_icon": "code_icon.png",
+        "default_popup": "content.html",
+        "default_title": "Click here!"
+    },
+    "permissions": [
+        "activeTab",
+        "https://ajax.googleapis.com/",
+       "storage",
+        "alarms",
+        "notifications"
+    ]
+}
+
